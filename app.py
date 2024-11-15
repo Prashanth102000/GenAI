@@ -5,8 +5,8 @@ import os
 app = Flask(__name__, template_folder='.')
 #CORS(app)
 #GROQ_API_URL = "https://api.groq.com/chat"
-#GROQ_API_KEY = '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'
-client = Groq(api_key='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',)
+
+client = Groq(api_key='',)
 
 
 @app.route('/')
